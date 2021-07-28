@@ -20,6 +20,7 @@ public class ServiceSumaApplication {
 	public String suma(@PathVariable String numero1, @PathVariable String numero2) {
 
 		int result = Integer.parseInt(numero1) + Integer.parseInt(numero2);
+		FileRepository.salvar(Integer.toString(result), "result/suma.txt");
 		return Integer.toString(result);
 
 	}
