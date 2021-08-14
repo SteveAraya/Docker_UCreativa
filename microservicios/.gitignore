@@ -25,4 +25,8 @@ hs_err_pid*
 calculadora-monolitica-server/suma.db
 calculadora-monolitica-server/multiplicacion.db
 
+result 
+result
+__pycache__ 
+
 .idea
